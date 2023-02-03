@@ -1,55 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <link rel="stylesheet" href="../css/fr.css">
-     <meta charset="utf-8">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
-        <title>Projet figma</title>
-    </head>
-    <body>
-    <header>
-        <a href="#" class="logo"><span>Fré-Jus</span><br>Assurance</a>
-        <ul class="btn">
-            <li><a href="#">DECLARER UN SINISTRE</a></li>
-            <li><a href="#">VÉHICULE</a></li>
-            <li><a href="#">MENU</a></li>
-            <li><a href="#">SERVICE DEPANNAGE</a></li>
-        </ul>
-    </header>
-    <section class="banniere" id=banniere>
-        <div class="contenu">
-            <h2>"Ne t'écrase pas sans nous, <br>mieux que les autres"</h2>
-        </div>
-    </section>
-    <section class="moi" id="moi">
-        <div class="dans">
-            <h2>SERVICES
-                <h6>Pprendre en charge les risques liés à la l'automobile en cas d'accident</h6>
-                <h6>Donner des conseils à notre client pour son interet</h6>
-                <h6>Assister de près notre client comme s'il etait un membre de notre famille</h6>
-                <h6>Personnaliser votre plan selon votre budget</h6>
-                <h6>Soutenir notre client 24h/24 et 7j/7</h6>
-            </h2>
-        </div>
-        <div class="main">
-            <h1>Assurance</h1>
-        </div>
-    <footer>
-
-        <div class="contenu-footer">
-
-            <div class="blo footer-services">
-                <h3>Nos Produits</h3>
-                <ul class="liste-Nos Produits">
-                    <li><a href="#">Assurance Auto</a></li>
-                    <li><a href="#">Educations</a></li>
-                </ul>
+<head>
+    <link rel="stylesheet" href="css/fr.css">
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/20d2a44d98.js" crossorigin="anonymous"></script>
+    <title>Projet figma</title>
+</head>
+<body>
+        <header class="main-head">
+            <nav>
+             <h1 id="logo">Fré-Jus<br>Assurance</h1>
+             <ul>
+                <li><a href="#">DECLARER UN SINITRE</a></li>
+                <li><a href="#">VÉHICULE</a></li>
+                <li><a href="#">MENU</a>
+                <li><a href="#">SERVICE DEPANAGE</a></li>
+            </ul>
+            </nav>
+             <label for="check">
+                <i class="fas fa-bars menu-btn"></i>
+                <i class="fas fa-times close-btn"></i>
+             </label>
+        </header>
+        <section class="hero"> 
+            <div class="bloc_conteneur">
+                <div class="sous_bloc">
+                s    <h2>SERVICES</h2>
+                    <p>Prendre en charge les risques liés à la l'automobile en cas d'accident</p>
+                    <p>Donner des conseils à notre client pour son interet</p>
+                    <p>Assister de près notre client comme s'il etait un membre de notre famille</p>
+                    <p>Personnaliser votre plan selon votre budget</p>
+                    <p>Soutene client 24h/24 et 7j/7</p>
+                </div>       
+                <div class="sous_bloc" id="sous_bloc">
+                    <h2>À propos de nous</h2>
+                    <p>Chez Fré-Jus Assurance, notre ambition est de mettre à votre service notre expertise pour proteger tous les moments de votre vie.</p>
+                    <p>Nous avons construit des services permettant de proteger votre bien automobile.</p>
+                    <p>Nos solutions d'assurance sont penséés pour repondre à vos attentes tout en tenant compte de vos contraintes.</p>
+                    <p>Nous nous employons à ce que nos valeurs se retranscrivent en nos actes.</p>
+                    <p>Orientations clients-Solidarité-Engagement-Respect, nous conduisent à travailler inlassablement pour que nos clients se sentent protegés, entendus et justement indemnisés en cas de sinistre</p>
+                </div>
             </div>
-        </div>
-    </footer>
-    </section>
-    </body>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Nos Produits</h4>
+                        <ul>
+                            <li><a href="#">Assurance Auto</a></li>
+                            <li><a href="#">Éducation</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Nos Contacts</h4>
+                        <ul>
+                            <li><a href="#">05 062 612 92</a></li>
+                            <li><a href="#"></a>fre-jus@gmail.com</li>
+                            <li><a href="#"></a>www.fre-jus.ci</li>
+                            <li><a href="#">01 BP 002 ABIDJAN <br>Cocody Angré</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Obtenir de l'aide</h4>
+                        <ul>
+                            <li><a href="#">Nos Agents</a></li>
+                            <li><a href="#">Nous Écrire</a></li>
+                            <li><a href="#">Nos Services Clients</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Suivez nous</h4
+                        <div class="social-links">
+                           <a href="#"><i class="fab fa-facebook"></i></a>
+                           <a href="#"><i class="fab fa-instagram"></i></a>
+                           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
 </html>
